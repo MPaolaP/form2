@@ -1,0 +1,45 @@
+body{
+    background-image: url(https://worldofprintables.com/wp-content/uploads/2023/07/Cats-and-Flower-Cat-Background-364x650.jpg);
+    background-color: rgba(255,255,255,0.8);
+    background-blend-mode: lighten;
+    font-family: tahoma;
+    padding: 20px;
+  }
+  h1{
+    font-size:40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align:center;
+    font-family:Impact, serif;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #4740b2;
+    border-color: white;
+    min-width: 30px;
+  }
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #9a94fa;
+  }
+  form, p {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  p{
+    margin-top:40px;
+    font-weight: 550;
+  }
+  

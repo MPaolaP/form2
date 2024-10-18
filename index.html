@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel"stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">Registration Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Enter your name: <input id="name" type="text" required placeholder="Patroclo Patricio"/></label>
+        <label id="email-label">Enter your email: <input id="email" type="email" required placeholder="patropati@gmail.com"/></label>
+        <label id="number-label">Enter your age: <input id="number" type="number" min="13" max="70" required placeholder="26"/></label>
+      </fieldset>
+      <fieldset>
+        <label> what is your favorite food: <select id="dropdown">
+          <option value="1">Colombian food</option>
+          <option value="2">Anything with avocado</option>
+          <option value="3">Indian food</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Why is Astaiza the best teacher?</legend>
+        <label><input name="options" type="radio" checked value="1"/>Charismatic</label>
+        <label><input name="options" type="radio" value="2"/>Never sleeps in class</label>
+        <label><input name="options" type="radio" value="3"/>Teach the necessary knowledge to do the tasks</label>
+      </fieldset>
+      <fieldset>
+        <legend>What is your favorite pet?</legend>
+        <label><input type="checkbox" value="Negra"/> Negra</label>
+        <label><input type="checkbox" value="Marilu"/> Maria Lucrecia</label>
+        <label><input type="checkbox" value="Galleta"/> Galleta</label>
+        <label><input type="checkbox" value="Almendra"/> Almendra</label>
+        <label>Additional comments: <textarea></textarea></label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+  </body>
+</html>
